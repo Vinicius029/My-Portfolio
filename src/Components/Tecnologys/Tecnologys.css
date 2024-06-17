@@ -33,33 +33,59 @@
     
 }
 
+.technology-card:hover {
+    box-shadow: 0px 0px 5px 2px #ffffff1c;
+}
+
 #html svg {
     color: #E44D26;
+}
+
+#html:hover {
+    border: 1px solid #E44D26;
 }
     
 
 #css svg {
     color: #1572B6;
 }
+
+#css:hover {
+    border: 1px solid #1572B6;
+}
     
 
 #js svg {
     color: #F0DB4F;
+}
+
+#js:hover {
+    border: 1px solid #F0DB4F;
 }
     
 
 #node svg {
     color: #83CD29;
 }
-    
 
+#node:hover {
+    border: 1px solid #83CD29;
+}
+ 
 #mysql svg {
     color: #00618A;
 }
-    
+
+#mysql:hover {
+    border: 1px solid #00618A;
+}
 
 #react svg {
     color: #61DAFB;
+}
+
+#react:hover {
+    border: 1px solid #61DAFB;
 }
     
 

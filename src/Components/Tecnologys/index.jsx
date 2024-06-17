@@ -7,9 +7,10 @@ import {
     DiNodejsSmall,
     DiMysql,
     DiReact,
+
 } from "react-icons/di";
 
-import { FaNodeJs } from "react-icons/fa";
+import { FaNodeJs, FaGitAlt, FaJoomla} from "react-icons/fa";
 
 const Tecnologys = () => {
 
@@ -17,9 +18,11 @@ const Tecnologys = () => {
         { id: "html", name: "HTML5", icon: <DiHtml5 /> },
         { id: "css", name: "CSS3", icon: <DiCss3 /> },
         { id: "js", name: "JavaScript", icon: <DiJsBadge /> },
-        { id: "node", name: "Node.js", icon: <FaNodeJs /> },
+        { id: "node", name: "NodeJS", icon: <FaNodeJs /> },
         { id: "mysql", name: "MySQL", icon: <DiMysql /> },
         { id: "react", name: "React", icon: <DiReact /> },
+        { id: "git", name: "Git e GitHub", icon: <FaGitAlt /> },
+        { id: "joomla", name: "Joomla", icon: <FaJoomla /> },
     ];
 
     return (
