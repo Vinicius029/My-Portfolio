@@ -1,0 +1,29 @@
+.container-social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: hsl(0, 0%, 100%);
+    width: 100%;
+}
+
+.container-social a{
+    color: #fff;
+    font-size: 30px;
+    border-radius: 5px;
+    padding: 3px;
+}
+
+.container-social #Linkedin:hover{
+    background-color: #0072b1 ;
+}
+
+.container-social #Github:hover{
+    color: #111;
+    background-color: #fff ;
+}
+
+.container-social #Instagram:hover{
+    color: #fff;
+    background-color: #bc2a8d ;
+}

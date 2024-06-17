@@ -1,0 +1,79 @@
+.technologies-container {
+    padding: 1rem;
+}
+
+.technologies-container h2 {
+    margin-bottom: 1rem;
+}
+
+.technologies-container {
+    margin-block: 10px;
+}
+
+.technologies-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.technology-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem;
+    border: 1px solid #333;
+    width: 45%;
+    border-radius: 10px;
+}
+
+.technology-card svg {
+    font-size: 5rem;
+    color: #fff;
+    
+}
+
+#html svg {
+    color: #E44D26;
+}
+    
+
+#css svg {
+    color: #1572B6;
+}
+    
+
+#js svg {
+    color: #F0DB4F;
+}
+    
+
+#node svg {
+    color: #83CD29;
+}
+    
+
+#mysql svg {
+    color: #00618A;
+}
+    
+
+#react svg {
+    color: #61DAFB;
+}
+    
+
+@media  (max-width: 728px) {
+    .technologies-grid {
+        display: block;
+    }
+
+    .technology-card { 
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .technology-card svg {
+        font-size: 48px;  
+    }
+}
