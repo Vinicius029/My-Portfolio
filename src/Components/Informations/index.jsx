@@ -1,6 +1,7 @@
 import "./Informations.css";
 
 import { AiFillPhone,AiOutlineMail, AiFillEnvironment } from "react-icons/ai";
+import { IoIosMail } from "react-icons/io";
 import { TfiEmail } from "react-icons/tfi";
 
 const InformationContainer = () => {
@@ -15,7 +16,7 @@ const InformationContainer = () => {
       </div>
       <div className="info-card">
         
-        <AiOutlineMail />
+        <IoIosMail />
         <div>
           <h3>E-mail</h3>
           <p>viniciusmiguel935@gmail.com</p>
